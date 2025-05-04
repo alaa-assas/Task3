@@ -1,0 +1,65 @@
+.awards-cards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.awards-cards .general-card{
+    padding: 80px 50px 50px 50px;
+    justify-content: stretch;
+}
+
+.awards-tabs{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.awards-tabs span{
+    color: var(--grey10);
+    font-family: "Raleway", sans-serif;
+}
+
+.awards-tabs .btn-nav-row{
+    display: flex;
+    gap: 20px;
+}   
+
+@media (max-width: 1919px) {
+    .awards-cards{
+        gap: 40px;
+    }
+
+    .awards-cards .general-card{
+        padding: 60px 40px 40px 40px;
+    }
+
+    .awards-tabs{
+        padding-top: 40px
+    }
+
+    .awards-tabs .btn-nav-row{
+        gap: 16px;
+    } 
+
+    .awards-tabs span{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .awards-cards{
+        flex-wrap: wrap;
+    }
+
+    .awards-cards .general-card{
+        padding: 50px 30px 30px 30px;
+    }
+
+    .awards-tabs .btn-nav-row{
+        padding-top: 0;
+    } 
+}

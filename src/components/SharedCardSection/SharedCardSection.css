@@ -1,0 +1,19 @@
+.shared-cards{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+@media (max-width: 1919px) {
+    .shared-cards{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .shared-cards{
+        flex-wrap: wrap;
+    }
+}

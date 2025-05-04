@@ -1,0 +1,130 @@
+.team-card{
+    padding: 3.1328%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    flex-basis: calc(50% - 30px);
+    border-radius: 12px;
+    background-color: var(--white-color);
+    transition: all 0.3s ease;
+}
+
+.team-card:hover{
+    box-shadow: 6px 6px 0px 2px var(--orange70);
+}
+
+.card-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-row .heading-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.team-card .icon{
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--Orange90);
+}
+
+.card-body{
+    background-color: var(--Orange97);
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-card .heading-image h4{
+    font-family: "Raleway", sans-serif;
+}
+
+.team-card .heading-image h4,
+.team-card p{
+    color: var(--grey20);
+}
+
+@media (max-width: 1919px) {
+    .team-card{
+        gap: 24px;
+        padding: 40px;
+    }
+
+    .card-row{
+        gap: 16px;
+    }
+
+    .card-row .heading-image{
+        gap: 12px;
+    }
+
+    .card-row .heading-image h4{
+        font-size: 24px;
+    }
+
+    .heading-image img{
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .card-row .icon{
+        padding: 12px;
+    }
+
+    .card-row .icon img{
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .card-body{
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .card-body .team-qualification{
+        font-size: 20px;
+    }
+
+    .card-body .team-desc{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .team-card{
+        flex-basis: 100%;
+        padding: 30px;
+    }
+
+    .card-row,
+    .card-row .heading-image{
+        gap: 10px;
+    }
+
+    .card-row .heading-image h4{
+        font-size: 20px;
+    }
+
+    .heading-image img{
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .card-body{
+        padding: 20px;
+        gap: 12px;
+    }
+
+    .team-card:hover{
+        box-shadow: 4px 4px 0px 1px var(--orange70);
+    }
+}

@@ -1,0 +1,23 @@
+
+.history-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    border-radius: 12px;
+    position: relative;
+    padding: 9.39849%;
+    background-color: var(--white-color);
+}
+
+@media (max-width: 1919px) {
+    .history-cards{
+        padding: 7.8125%;
+    }
+}
+
+@media (max-width: 992px) {
+    .history-cards{
+        padding: 50px 9.4%;
+    }
+}

@@ -1,0 +1,12 @@
+.nav-button{
+  background-color: var(--white-color);
+  border: 2px solid var(--grey20);
+  border-radius: 8px;
+  padding: 14px;
+}
+
+@media (max-width: 1919px){
+  .nav-button{
+      padding: 12px;
+  }
+}

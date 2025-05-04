@@ -1,0 +1,28 @@
+.learn-cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: stretch;
+
+}
+
+@media (max-width:1919px) {
+    .learn-cards {
+        gap: 30px;
+    }
+}
+
+@media (max-width:1439px) {
+    .learn-cards {
+        gap: 24px;
+    }
+}
+
+@media (max-width:992px) {
+    .learn-cards {
+        gap: 40px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}

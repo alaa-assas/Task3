@@ -1,0 +1,112 @@
+.sub-hero{
+    padding-top: 230px;
+}
+
+.sub-hero .container{
+    position: relative;
+    border-radius: 12px;
+    padding: 150px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--white-color);
+}
+
+.sub-hero .container .img-design{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.sub-hero .container .left-side,
+.sub-hero .container .right-side{
+    width: calc(50% - 25px);
+}
+
+.sub-hero .container .left-side .title{
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    margin-bottom: 0;
+    gap: 14px;
+}
+
+.sub-hero .container .left-side .title .heading{
+    text-align: start;
+    color: var(--grey10);
+    font-size: 48px;
+}
+
+.sub-hero .container .right-side p{
+    color: var(--grey20);
+}
+
+@media(max-width: 1919px){
+    .sub-hero{
+        padding-top: 180px;
+    }
+
+    .sub-hero .container .img-design{
+        max-width: 137px;
+        max-height: 137px;
+    }
+
+    .sub-hero .container{
+        padding: 100px 80px;
+    }
+
+    .sub-hero .container .left-side .title{
+        padding: 0;
+        gap: 10px;
+    }
+
+    .sub-hero .container .left-side .title .heading{
+        font-size: 38px;
+    }
+
+    .sub-hero .container .right-side p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 992px){
+    .sub-hero{
+        padding-top: 200px;
+    }
+
+    .sub-hero .container .img-design{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .sub-hero .container{
+        padding: 50px 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px
+    }
+
+    .sub-hero .container .left-side,
+    .sub-hero .container .right-side{
+        width: 100%;
+    }
+
+    .sub-hero .container .left-side .title{
+        padding: 0;
+        align-items: center;
+    }
+
+    .sub-hero .container .left-side .title .heading{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .sub-hero .container .left-side .title .flag{
+        font-size: 14px;
+    }
+
+    .sub-hero .container .right-side p{
+        text-align: center;
+    }
+}

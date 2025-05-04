@@ -1,0 +1,177 @@
+.history-card{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    gap: 50px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.history-card:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -20%;
+    transform: translateY(50%);
+    width: 2px;
+    height: 100%;
+    background: var(--black-color);
+    outline: 5px solid var(--Orange80);
+}
+
+.card-year-col{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.card-year-col .horizontal-line{
+    width: 12.2767%;
+    min-width: 55px;
+    background: var(--black-color);
+    height: 2px;
+    outline: 5px solid var(--Orange80);
+    position: relative; 
+}
+
+.card-year-col .horizontal-line::before,
+.card-year-col .horizontal-line::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    border: 2px solid var(--grey15);
+}   
+
+.card-year-col .horizontal-line::before {
+    left: -20px;
+}
+  
+.card-year-col .horizontal-line::after {
+    right: -20px;
+}
+
+.card-year{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+}
+
+.card-year h4{
+    font-family: "Raleway", sans-serif;
+    color: var(--grey10);
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-details .card-details-title{
+    font-family: "Raleway", sans-serif;
+    color: var(--grey10);
+}
+
+.card-details .card-details-desc{
+    color: var(--grey20);
+}
+
+@media (max-width: 1919px) {
+    .history-card{
+        gap: 40px;
+        padding-bottom: 80px;
+    }
+
+    .card-year{
+        padding: 25px 30px;
+        border-radius: 10px;
+    }
+    
+    .card-year img{
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .card-year h4{
+        font-size: 48px;
+    }
+    
+    .card-details{
+        gap: 16px;
+    }
+    
+    .card-details .card-details-title{
+        font-size: 24px;
+    }
+    
+    .card-details .card-details-desc{
+        font-size: 16px;
+    }
+
+    .card-year-col .horizontal-line{
+        width: 13.2530%;
+        min-width: 44px;
+    }
+}
+
+@media (max-width: 992px) {
+    .history-card{
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+
+    .history-card:last-child{
+        padding-bottom: 0;
+    }
+
+    .card-year{
+        padding: 20px 24px;
+    }
+    
+    .card-year img{
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .card-year h4{
+        font-size: 38px;
+    }
+    
+    .card-details{
+        gap: 12px;        
+    }
+    
+    .card-details .card-details-title{
+        font-size: 22px;
+        padding-left: 15.49295%;
+    }
+
+    .card-details .card-details-desc{
+        padding-left: 15.49295%;
+    }
+
+    .card-year-col .horizontal-line{
+        width: 8.5603%;
+        min-width: 22px;
+    }
+
+    .history-card:not(:last-child)::before{
+        top: -35%; 
+    }
+}
+
+@media (max-width: 500px) {
+    .history-card:not(:last-child)::before{
+        top: -40%; 
+    }
+}

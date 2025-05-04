@@ -1,0 +1,49 @@
+.gallery-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.gallery-filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.gallery-filters button{
+    border-radius: 8px;
+    padding: 14px 20px;
+    background-color: var(--white-color);
+    color: var(--gray10);
+}
+
+
+@media(max-width: 1919px){
+    .gallery-filters{
+        gap: 10px;
+    }
+    
+    .gallery-filters button{
+        border-radius: 6px;
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 992px){
+    .gallery-filters{
+        width: 100%;
+        overflow-x: auto; 
+    }
+
+    .gallery-filters::-webkit-scrollbar {
+        display: none;
+    }
+
+    .gallery-filters button{
+        white-space: nowrap;
+    }
+}

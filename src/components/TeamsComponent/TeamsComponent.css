@@ -1,0 +1,19 @@
+.team-cards{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+@media (max-width: 1919px) {
+    .team-cards{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .team-cards{
+        flex-wrap: wrap;
+    }
+}
