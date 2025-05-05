@@ -15,21 +15,21 @@ The **Little Learners** website is a responsive and engaging online platform des
   - **FAQs Section**: Answers common questions about admissions, policies, and activities.
   - **Navigation Links**: Quick access to key sections like About Us, Academics, Student Life, Admissions, and Contact.
 
-### **2. Academics Page**
-- **Purpose**: Provide detailed information about the school's curriculum and learning environment.
-- **Key Features**:
-  - **Welcome Message**: Welcomes visitors to the Academics section.
-  - **Our Features Section**: Explains core educational programs like thematic learning, STEAM education, language immersion, art and creativity, outdoor education, and play-based learning.
-  - **What Students Learn Section**: Details subjects covered in the curriculum, including Language Arts, Mathematics, Science, Social Studies, Arts and Crafts, and Physical Education.
-  - **Our Gallery Section**: Offers a visual tour of the school's facilities, including classrooms, library, science lab, computer lab, and garden/nature area.
-
-### **3. About Us Page**
+### **2. About Us Page**
 - **Purpose**: Share the school's mission, history, achievements, and team.
 - **Key Features**:
   - **Mission & Visions Section**: Explains the school's mission to inspire young minds and its vision to foster lifelong learners.
   - **Our Achievements Section**: Displays awards and recognitions received by the school.
   - **Our History Section**: Timeline showcasing the school's journey from inception to the present.
   - **Our Team Members Section**: Profiles of key educators, including their qualifications and roles.
+
+### **3. Academics Page**
+- **Purpose**: Provide detailed information about the school's curriculum and learning environment.
+- **Key Features**:
+  - **Welcome Message**: Welcomes visitors to the Academics section.
+  - **Our Features Section**: Explains core educational programs like thematic learning, STEAM education, language immersion, art and creativity, outdoor education, and play-based learning.
+  - **What Students Learn Section**: Details subjects covered in the curriculum, including Language Arts, Mathematics, Science, Social Studies, Arts and Crafts, and Physical Education.
+  - **Our Gallery Section**: Offers a visual tour of the school's facilities, including classrooms, library, science lab, computer lab, and garden/nature area.
 
 
 Technologies Used:
