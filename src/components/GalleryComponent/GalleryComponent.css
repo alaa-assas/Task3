@@ -111,7 +111,8 @@
 
     .gallery-images{
         padding: 0 8.3798%;
-        top: -40%;
+        top: -20%;
+        bottom: 80%;
     }
 
     .gallery-images img{
