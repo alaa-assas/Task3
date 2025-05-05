@@ -28,4 +28,4 @@ AOS (Animate on Scroll) : To add smooth animations when scrolling through the pa
 
 Responsive Design : Ensures the site works well on desktops, tablets, and mobile devices.
 
-🌐 Deployment The project is deployed using GitHub Pages. You can view the live demo of the project here: https://alaa-assas.github.io/Task2/
+🌐 Deployment The project is deployed using GitHub Pages. You can view the live demo of the project here: https://alaa-assas.github.io/Task3/
