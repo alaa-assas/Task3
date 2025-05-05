@@ -9,7 +9,7 @@ The **Little Learners** website is a responsive and engaging online platform des
 ### **1. Home Page**
 - **Purpose**: Capture attention and convey the school's mission and values.
 - **Key Features**:
-  - **Hero Section**: Bold call-to-action ("Admission is Open, Grab your seat now") with eye-catching visuals and key statistics.
+  - **Hero Section**: Highlights key messages and statistics about the school.
   - **Our Benefits Section**: Highlights unique advantages like holistic learning, experienced educators, nurturing environments, play-based learning, individualized attention, and parent involvement.
   - **Testimonials Section**: Displays positive feedback from satisfied parents and students.
   - **FAQs Section**: Answers common questions about admissions, policies, and activities.
