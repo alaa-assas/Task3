@@ -42,6 +42,8 @@ CSS : For styling and layout design.
 
 AOS (Animate on Scroll) : To add smooth animations when scrolling through the page.
 
+React Router DOM: For handling routing in React applications. It allows you to create multiple pages and navigate between them without reloading the page, providing a smooth user experience.
+
 Responsive Design : Ensures the site works well on desktops, tablets, and mobile devices.
 
 🌐 Deployment The project is deployed using GitHub Pages. You can view the live demo of the project here: https://alaa-assas.github.io/Task3/
